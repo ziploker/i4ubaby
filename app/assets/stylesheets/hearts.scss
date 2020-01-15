@@ -53,6 +53,9 @@ span{
     position: relative;
     overflow: hidden;
     margin: 0 auto;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
 }
 
 .animation2{
@@ -73,18 +76,18 @@ span{
 
 #al{
 
-    height: 100px;
+    height: 85vh;
     position: absolute;
-    top: 50%;
+    bottom: -18%;
     left: -50%;
 
 }
 
 #nat{
 
-    height: 80px;
+    height: 60vh;
     position: absolute;
-    top: 50%;
+     bottom: 0;
     right: -50%;
 }
 
@@ -92,8 +95,8 @@ span{
 
     height: 80px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 68%;
+    left: 49%;
     transform: translate(-51%, -69%);
     opacity: 0;
     
