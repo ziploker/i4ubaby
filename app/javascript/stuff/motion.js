@@ -4,7 +4,7 @@ var controller = new ScrollMagic.Controller();
 $(document).ready(function() {
   
     
-    var tl = gsap.timeline();
+    var tl = gsap.timeline({duration: 6});
    
 
     //var transformRatio = $('.animation').height()/$('#manos').height();
@@ -16,13 +16,13 @@ $(document).ready(function() {
         
     //);
 
-    tl.to("#al", {left: "50%", xPercent: -100, duration: 3.7}, 0);
-    tl.to("#nat", {right: "50%", xPercent: 50, duration: 3.6}, 0);
+    tl.to("#al", {left: "50%", xPercent: -100, duration: 6}, 0);
+    tl.to("#nat", {right: "50%", xPercent: 50, duration: 6}, 0);
     
     //tl.to("#al, #nat", {opacity: 0, duration: 1.5}, 2);
     tl.to("#end", {opacity: 1, duration: 1.5});
     tl.to("#end", {width: 3000, duration: 3, height: 3000, opacity: 0});
-    tl.to(".animation1", {backgroundImage:'url(/assets/fireworks.jpg'});
+    tl.to("#fireworks", {opacity: 1, duration: 2});
     tl.to(".animation1", {opacity: .3, scale:.6, rotation:3.01, duration: 8});
 
     //var timeline = new TimelineMax();
