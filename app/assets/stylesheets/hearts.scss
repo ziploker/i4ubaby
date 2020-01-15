@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
 
-header, footer{
+.center{
 
     height: 100vh;
     display: flex;
@@ -12,19 +12,44 @@ header, footer{
     font-family: 'Montserrat', sans-serif;
 }
 
-header h1{
+h1{
 
     font-size: 60px;
+    
+}
+
+span{
+    display: block;
 }
 
 
+.caca{
 
-.animation{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    min-height: 1px;
+    display: inline-block;
+
+}
+.animation0{
     //height: 100vh;
     min-width: 100vw;
     height: 100vh;
     
     background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.animation1{
+    //height: 100vh;
+    min-width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-image: linear-gradient(to right, #188d5c 0%, #d81111 100%);
     position: relative;
     overflow: hidden;
     margin: 0 auto;
@@ -87,25 +112,3 @@ header h1{
 }
 
 
-.spacer.s2 {
-    min-height: 200px;
-}
-
-.spacer {
-    text-align: center;
-    min-height: 100px;
-}
-
-.spacer.s0 {
-    min-height: 1px;
-}
-
-.box2 {
-    min-width: 50px;
-    height: 50px;
-    margin: 25px auto 25px auto;
-}
-
-.skin_NO {
-    background-color: #ED9F4C;
-}
